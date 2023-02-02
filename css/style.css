@@ -51,11 +51,18 @@ p {
     padding-top: 20px;
 }
 
+.controls-left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #3f3f3f;
+}
+
 .btn {
     color: red;
     background-color: #3f3f3f;
     border: transparent;
-    padding: 30px;
-
-    /* da rifare completamente */
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
